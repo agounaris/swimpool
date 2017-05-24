@@ -22,13 +22,20 @@ A wrapper of multiprocessing pool
 
 
 * Free software: BSD license
-* Documentation: https://swimpool.readthedocs.io.
 
 
 Features
 --------
 
-* TODO
+This tool was build mainly for simple monte carlo simulations using the multiprocess tool. I need a simple interface where I can throw in any number of functions and test them across the same or multiple inputs.
+
+Clone the project, install the swimpool/examples/requirements_example.txt and checkout the sample code.
+
+    python -m swimpool.examples.single_function_single_data
+    
+    python -m swimpool.examples.multiple_functions_same_data
+    
+    python -m swimpool.examples.multiple_functions_multiple_data
 
 Credits
 ---------
